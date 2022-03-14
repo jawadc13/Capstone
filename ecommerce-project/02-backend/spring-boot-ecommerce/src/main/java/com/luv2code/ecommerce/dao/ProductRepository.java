@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.luv2code.ecommerce.entity.Product;
 
-@CrossOrigin("http://localhost:4200")
 @RepositoryRestResource(collectionResourceRel = "products", path = "products")
 public interface ProductRepository extends JpaRepository<Product, Long>{
 
